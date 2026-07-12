@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Services — web design, development, and consulting." />
+  <title>Services | Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">@layer utilities { .service-icon { @apply hidden; } }</style>
+  <style type="text/tailwindcss">@layer components { .container { @apply mx-auto w-[min(100%-2rem,1100px)]; } .nav { @apply flex items-center justify-between py-4; } .logo { @apply bg-gradient-to-br from-violet-400 via-indigo-500 to-cyan-400 bg-clip-text font-['Fraunces'] text-xl font-bold text-transparent; } .nav-links { @apply flex list-none gap-5 sm:gap-8; } .nav-links a { @apply text-sm text-[#8b8b97] hover:text-violet-400; } .services-header { @apply mx-auto mb-12 max-w-[560px] text-center; } .section-label { @apply mb-3 text-xs font-semibold uppercase tracking-[.1em] text-cyan-400; } .service-icon { @apply mb-5 flex size-12 items-center justify-center rounded-xl border border-violet-400/20 bg-violet-400/10 text-2xl; } .service-card p, .services-header > p:last-child { @apply text-[#8b8b97]; } footer { @apply border-t border-white/10 py-8 text-center text-sm text-[#8b8b97]; } }</style>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-zinc-950 font-sans leading-relaxed text-zinc-100 antialiased">
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/80 backdrop-blur-xl"><div class="container nav">
+      <a href="home.html" class="logo">Fam atef</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html" class="rounded-lg bg-violet-400/10 px-3 py-2 text-violet-300 ring-1 ring-inset ring-violet-400/20" aria-current="page">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="services container mx-auto w-[min(100%-2rem,1100px)] py-16 pb-24">
+      <div class="services-header">
+        <p class="section-label">What I’m Learning and Building</p>
+        <h2>Services</h2>
+        <p>
+          I’m a student learning frontend development and I’m happy to help with simple, modern, and responsive web projects.
+        </p>
+      </div>
+      <div class="mb-8 rounded-3xl border border-violet-400/20 bg-gradient-to-br from-violet-500/10 to-cyan-400/10 p-8 shadow-xl">
+        <p class="mb-3 text-xs font-semibold uppercase tracking-[.1em] text-cyan-400">Featured Project</p>
+        <h3 class="mb-3 font-['Fraunces'] text-2xl text-white">Sportswear Landing Page</h3>
+        <p class="mb-5 text-[#8b8b97]">
+          First frontend project built as a modern sportswear-style landing page with a clean layout and responsive design.
+        </p>
+        <a href="https://t72gnz.csb.app/" target="_blank" rel="noreferrer" class="inline-flex rounded-full bg-gradient-to-r from-violet-400 via-indigo-500 to-cyan-400 px-5 py-2.5 text-sm font-semibold text-zinc-950 transition hover:-translate-y-0.5">
+          View Project ↗
+        </a>
+      </div>
+
+      <div class="mb-8 rounded-3xl border border-cyan-400/20 bg-cyan-400/10 p-8 shadow-xl">
+        <p class="mb-3 text-xs font-semibold uppercase tracking-[.1em] text-cyan-300">Second Project</p>
+        <h3 class="mb-3 font-['Fraunces'] text-2xl text-white">Simple Web Page</h3>
+        <p class="mb-5 text-[#8b8b97]">
+          A simple and clean project that helped me practice structure, layout, and styling in a basic frontend page.
+        </p>
+        <a href="https://l33wm5.csb.app/" target="_blank" rel="noreferrer" class="inline-flex rounded-full border border-cyan-400/30 bg-cyan-400/10 px-5 py-2.5 text-sm font-semibold text-cyan-200 transition hover:-translate-y-0.5">
+          View Project ↗
+        </a>
+      </div>
+
+      <div class="mb-8 rounded-3xl border border-emerald-400/20 bg-emerald-400/10 p-8 shadow-xl">
+        <p class="mb-3 text-xs font-semibold uppercase tracking-[.1em] text-emerald-300">Third Project</p>
+        <h3 class="mb-3 font-['Fraunces'] text-2xl text-white">Pizza Order Form</h3>
+        <p class="mb-5 text-[#8b8b97]">
+          A simple order form project that helped me practice form design, input handling, and interactive frontend elements.
+        </p>
+        <a href="https://p8x2ph.csb.app/" target="_blank" rel="noreferrer" class="inline-flex rounded-full border border-emerald-400/30 bg-emerald-400/10 px-5 py-2.5 text-sm font-semibold text-emerald-200 transition hover:-translate-y-0.5">
+          View Project ↗
+        </a>
+      </div>
+
+      <div class="services-grid grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <article class="service-card rounded-2xl border border-white/10 bg-zinc-900 p-8 shadow-xl transition hover:-translate-y-1 hover:border-violet-400/50">
+          <div class="service-icon" aria-hidden="true">🎨</div>
+          <div class="mb-5 flex size-12 items-center justify-center rounded-xl bg-violet-500/10 text-xl text-violet-300 ring-1 ring-inset ring-violet-400/20" aria-hidden="true">&#127912;</div><h3>Responsive Landing Pages</h3>
+          <p>
+            I build clean and modern landing pages that look great on all devices and present ideas clearly.
+          </p>
+        </article>
+        <article class="service-card rounded-2xl border border-white/10 bg-zinc-900 p-8 shadow-xl transition hover:-translate-y-1 hover:border-violet-400/50">
+          <div class="service-icon" aria-hidden="true">⚡</div>
+          <div class="mb-5 flex size-12 items-center justify-center rounded-xl bg-cyan-500/10 text-xl text-cyan-300 ring-1 ring-inset ring-cyan-400/20" aria-hidden="true">&#9889;</div><h3>Frontend Development</h3>
+          <p>
+            I create interactive web interfaces with HTML, CSS, JavaScript, and React while focusing on clean and readable code.
+          </p>
+        </article>
+        <article class="service-card rounded-2xl border border-white/10 bg-zinc-900 p-8 shadow-xl transition hover:-translate-y-1 hover:border-violet-400/50">
+          <div class="service-icon" aria-hidden="true">✦</div>
+          <div class="mb-5 flex size-12 items-center justify-center rounded-xl bg-fuchsia-500/10 text-xl text-fuchsia-300 ring-1 ring-inset ring-fuchsia-400/20" aria-hidden="true">&#10022;</div><h3>UI Improvements</h3>
+          <p>
+            I help improve layouts, colors, spacing, and buttons to make websites feel more polished and user-friendly.
+          </p>
+        </article>
+        <article class="service-card rounded-2xl border border-white/10 bg-zinc-900 p-8 shadow-xl transition hover:-translate-y-1 hover:border-violet-400/50">
+          <div class="service-icon" aria-hidden="true">📱</div>
+          <div class="mb-5 flex size-12 items-center justify-center rounded-xl bg-indigo-500/10 text-xl text-indigo-300 ring-1 ring-inset ring-indigo-400/20" aria-hidden="true">&#128241;</div><h3>Portfolio Websites</h3>
+          <p>
+            I can create personal or project-based portfolios that showcase your work in a simple and professional way.
+          </p>
+        </article>
+        <article class="service-card rounded-2xl border border-white/10 bg-zinc-900 p-8 shadow-xl transition hover:-translate-y-1 hover:border-violet-400/50">
+          <div class="service-icon" aria-hidden="true">🔧</div>
+          <div class="mb-5 flex size-12 items-center justify-center rounded-xl bg-amber-500/10 text-xl text-amber-300 ring-1 ring-inset ring-amber-400/20" aria-hidden="true">&#128295;</div><h3>Small Web Projects</h3>
+          <p>
+            I enjoy building small websites and practice projects to improve my skills and bring ideas to life.
+          </p>
+        </article>
+        <article class="service-card rounded-2xl border border-white/10 bg-zinc-900 p-8 shadow-xl transition hover:-translate-y-1 hover:border-violet-400/50">
+          <div class="service-icon" aria-hidden="true">💬</div>
+          <div class="mb-5 flex size-12 items-center justify-center rounded-xl bg-emerald-500/10 text-xl text-emerald-300 ring-1 ring-inset ring-emerald-400/20" aria-hidden="true">&#128172;</div><h3>Learning-Based Projects</h3>
+          <p>
+            I create practical projects to improve my skills, explore new ideas, and build confidence as a developer.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container">
+      <p>
+        Ready to work together?
+        <a href="mailto:famatefatef@gmail.com" class="bg-gradient-to-r from-violet-400 via-indigo-400 to-cyan-300 bg-clip-text font-semibold text-transparent transition hover:opacity-80">famatefatef@gmail.com</a>
+      </p>
+      <p class="mt-2">&copy; 2026 Fam atef. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

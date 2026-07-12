@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="My projects — frontend work and learning projects." />
+  <title>Projects | Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-zinc-950 font-sans text-zinc-100 antialiased">
+  <div aria-hidden="true" class="pointer-events-none fixed inset-0 -z-10 bg-gradient-to-br from-indigo-950 via-zinc-950 to-cyan-950/40"></div>
+
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/80 backdrop-blur-xl">
+    <div class="mx-auto flex w-full max-w-6xl items-center justify-between px-5 py-4 sm:px-6">
+      <a href="home.html" class="bg-gradient-to-r from-violet-400 via-indigo-400 to-cyan-300 bg-clip-text font-serif text-xl font-bold tracking-tight text-transparent">Fam atef</a>
+      <nav aria-label="Primary navigation">
+        <ul class="flex items-center gap-1 text-sm font-medium sm:gap-2">
+          <li><a href="home.html" class="rounded-lg px-3 py-2 text-zinc-400 transition hover:bg-white/5 hover:text-white">Home</a></li>
+          <li><a href="about.html" class="rounded-lg px-3 py-2 text-zinc-400 transition hover:bg-white/5 hover:text-white">About</a></li>
+          <li><a href="services.html" class="rounded-lg px-3 py-2 text-zinc-400 transition hover:bg-white/5 hover:text-white">Services</a></li>
+          <li><a href="projects.html" aria-current="page" class="rounded-lg bg-violet-400/10 px-3 py-2 text-violet-300 ring-1 ring-inset ring-violet-400/20">Projects</a></li>
+          <li><a href="contact.html" class="rounded-lg px-3 py-2 text-zinc-400 transition hover:bg-white/5 hover:text-white">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mx-auto w-full max-w-6xl px-5 py-16 sm:px-6 sm:py-24">
+    <section class="mx-auto max-w-3xl text-center">
+      <p class="mb-4 text-xs font-bold uppercase tracking-widest text-cyan-300">My Projects</p>
+      <h1 class="font-serif text-4xl font-semibold tracking-tight text-white sm:text-6xl">Frontend projects I’ve built so far.</h1>
+      <p class="mx-auto mt-6 max-w-2xl text-base leading-8 text-zinc-400 sm:text-lg">
+        These are simple projects I created while learning frontend development, focusing on layout, styling, and user experience.
+      </p>
+    </section>
+
+    <section class="mt-14 grid gap-6 lg:grid-cols-2">
+      <article class="rounded-3xl border border-white/10 bg-zinc-900/70 p-8 shadow-2xl shadow-black/20 backdrop-blur">
+        <p class="mb-3 text-xs font-semibold uppercase tracking-[.1em] text-violet-300">Project 1</p>
+        <h2 class="font-serif text-2xl text-white">Sportswear Landing Page</h2>
+        <p class="mt-4 leading-8 text-zinc-400">
+          A modern landing page inspired by sportswear design, built to practice layout, colors, and responsive structure.
+        </p>
+        <a href="https://t72gnz.csb.app/" target="_blank" rel="noreferrer" class="mt-6 inline-flex rounded-full bg-gradient-to-r from-violet-400 via-indigo-500 to-cyan-400 px-5 py-2.5 text-sm font-semibold text-zinc-950 transition hover:-translate-y-0.5">
+          View Project ↗
+        </a>
+      </article>
+
+      <article class="rounded-3xl border border-white/10 bg-zinc-900/70 p-8 shadow-2xl shadow-black/20 backdrop-blur">
+        <p class="mb-3 text-xs font-semibold uppercase tracking-[.1em] text-cyan-300">Project 2</p>
+        <h2 class="font-serif text-2xl text-white">Simple Web Page</h2>
+        <p class="mt-4 leading-8 text-zinc-400">
+          A basic page created to practice structure, content placement, and clean styling with simple frontend elements.
+        </p>
+        <a href="https://l33wm5.csb.app/" target="_blank" rel="noreferrer" class="mt-6 inline-flex rounded-full border border-cyan-400/30 bg-cyan-400/10 px-5 py-2.5 text-sm font-semibold text-cyan-200 transition hover:-translate-y-0.5">
+          View Project ↗
+        </a>
+      </article>
+
+      <article class="rounded-3xl border border-white/10 bg-zinc-900/70 p-8 shadow-2xl shadow-black/20 backdrop-blur">
+        <p class="mb-3 text-xs font-semibold uppercase tracking-[.1em] text-emerald-300">Project 3</p>
+        <h2 class="font-serif text-2xl text-white">Pizza Order Form</h2>
+        <p class="mt-4 leading-8 text-zinc-400">
+          A small interactive form project focused on inputs, buttons, and creating a simple ordering experience.
+        </p>
+        <a href="https://p8x2ph.csb.app/" target="_blank" rel="noreferrer" class="mt-6 inline-flex rounded-full border border-emerald-400/30 bg-emerald-400/10 px-5 py-2.5 text-sm font-semibold text-emerald-200 transition hover:-translate-y-0.5">
+          View Project ↗
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 py-8 text-center text-sm text-zinc-500">
+    <p>Want to see more? <a class="bg-gradient-to-r from-violet-400 via-indigo-400 to-cyan-300 bg-clip-text font-semibold text-transparent transition hover:opacity-80" href="mailto:famatefatef@gmail.com">famatefatef@gmail.com</a></p>
+    <p class="mt-2">&copy; 2026 Fam atef. All rights reserved.</p>
+  </footer>
+</body>
+</html>

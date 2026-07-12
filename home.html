@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio home — welcome and overview." />
+  <title>Home | Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-zinc-950 font-sans leading-relaxed text-zinc-100 antialiased">
+  <div class="pointer-events-none fixed inset-0 -z-10 bg-gradient-to-br from-indigo-950 via-zinc-950 to-cyan-950/40"></div>
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/80 backdrop-blur-xl">
+    <div class="mx-auto flex w-[min(100%-2rem,1100px)] items-center justify-between py-4">
+      <a href="home.html" class="bg-gradient-to-br from-violet-400 via-indigo-500 to-cyan-400 bg-clip-text font-['Fraunces'] text-xl font-bold tracking-tight text-transparent">Fam atef</a>
+      <nav aria-label="Primary navigation"><ul class="flex list-none gap-5 text-[.95rem] sm:gap-8"><li><a href="home.html" class="text-violet-400">Home</a></li><li><a href="about.html" class="text-[#8b8b97] transition hover:text-violet-400">About</a></li><li><a href="services.html" class="text-[#8b8b97] transition hover:text-violet-400">Services</a></li><li><a href="projects.html" class="text-[#8b8b97] transition hover:text-violet-400">Projects</a></li><li><a href="contact.html" class="text-[#8b8b97] transition hover:text-violet-400">Contact</a></li></ul></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="mx-auto w-[min(100%-2rem,1100px)] py-16 md:py-20">
+      <div class="grid items-center gap-12 text-center lg:grid-cols-[1fr_280px] lg:text-left">
+        <div>
+          <span class="mb-4 inline-flex rounded-full border border-cyan-400/20 bg-cyan-400/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-[.1em] text-cyan-400">CS Student • Frontend Learner</span>
+          <h1 class="mb-5 font-['Fraunces'] text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">Hi, I'm <span class="bg-gradient-to-br from-violet-400 via-indigo-500 to-cyan-400 bg-clip-text text-transparent">Fam atef</span></h1>
+          <p class="mx-auto mb-8 max-w-[52ch] text-lg text-[#c4c4cc] lg:mx-0">
+            I’m a Computer Science student learning frontend development by building modern, responsive, and user-friendly web pages.
+            I’m also improving my skills in Tailwind CSS and Bootstrap to create clean interfaces faster and more professionally.
+          </p>
+          <div class="flex flex-wrap justify-center gap-4 lg:justify-start">
+            <a href="about.html" class="rounded-full bg-gradient-to-br from-violet-400 via-indigo-500 to-cyan-400 px-6 py-3 text-[.95rem] font-semibold text-[#050507] shadow-[0_8px_28px_rgba(99,102,241,.35)] transition hover:-translate-y-0.5">Learn About Me</a>
+            <a href="services.html" class="rounded-full border border-white/10 bg-zinc-900 px-6 py-3 text-sm font-semibold transition hover:-translate-y-0.5 hover:border-violet-400/50 hover:text-violet-400">See My Services</a>
+          </div>
+        </div>
+        <div class="relative order-first mx-auto lg:order-none">
+          <div class="absolute -inset-3 -z-10 rounded-full bg-gradient-to-br from-violet-400 via-indigo-500 to-cyan-400 opacity-70 blur-sm"></div>
+          <div class="rounded-full bg-gradient-to-br from-zinc-400/70 via-zinc-500/60 to-zinc-300/70 p-[3px] shadow-[0_4px_24px_rgba(0,0,0,.28)]">
+            <img src="profile.jpg" alt="Profile" class="size-64 rounded-full object-cover" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto w-[min(100%-2rem,1100px)] pb-24">
+      <div class="grid gap-6 md:grid-cols-2">
+        <article class="rounded-2xl border border-white/10 bg-zinc-900 p-8 shadow-xl transition hover:-translate-y-1 hover:border-violet-400/50">
+          <p class="mb-3 text-xs font-semibold uppercase tracking-[.1em] text-cyan-400">About</p>
+          <h3 class="mb-3 font-['Fraunces'] text-2xl">About Me</h3>
+          <p class="mb-5 text-[#8b8b97]">
+            I’m a student who enjoys building simple, polished websites and learning new frontend skills every day, including Tailwind and Bootstrap.
+          </p>
+          <a href="about.html" class="bg-gradient-to-br from-violet-400 via-indigo-500 to-cyan-400 bg-clip-text text-[.95rem] font-semibold text-transparent">Go to About &rarr;</a>
+        </article>
+        <article class="rounded-2xl border border-white/10 bg-zinc-900 p-8 shadow-xl transition hover:-translate-y-1 hover:border-violet-400/50">
+          <p class="mb-3 text-xs font-semibold uppercase tracking-[.1em] text-cyan-400">Work</p>
+          <h3 class="mb-3 font-['Fraunces'] text-2xl">Services</h3>
+          <p class="mb-5 text-[#8b8b97]">
+            I can help with landing pages, portfolio sites, UI improvements, and small frontend projects.
+          </p>
+          <a href="services.html" class="bg-gradient-to-br from-violet-400 via-indigo-500 to-cyan-400 bg-clip-text text-[.95rem] font-semibold text-transparent">View Services &rarr;</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="border-t border-white/10 bg-zinc-950 py-8 text-center text-sm text-zinc-400">
+    <div class="mx-auto w-[min(100%-2rem,1100px)]">
+      <p>
+        Ready to work together?
+        <a href="mailto:famatefatef@gmail.com" class="bg-gradient-to-br from-violet-400 via-indigo-500 to-cyan-400 bg-clip-text font-semibold text-transparent">famatefatef@gmail.com</a>
+      </p>
+      <p class="mt-2">&copy; 2026 Fam atef. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

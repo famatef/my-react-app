@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Your Name to discuss your next project." />
+  <title>Contact | Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">@layer components { .container { @apply mx-auto w-[min(100%-2rem,1100px)]; } .nav { @apply flex items-center justify-between py-4; } .logo { @apply bg-gradient-to-br from-violet-400 via-indigo-500 to-cyan-400 bg-clip-text font-['Fraunces'] text-xl font-bold text-transparent; } .nav-links { @apply flex list-none gap-5 sm:gap-8; } .nav-links a { @apply text-sm text-[#8b8b97] hover:text-violet-400; } .section-label { @apply mb-3 text-xs font-semibold uppercase tracking-[.1em] text-cyan-400; } .page-header h1 { @apply mb-3 font-['Fraunces'] text-4xl sm:text-5xl; } .page-header > p:last-child, .contact-intro, .contact-method-label { @apply text-[#8b8b97]; } .contact-methods { @apply mt-7 grid gap-4; } .contact-method { @apply border-t border-white/10 pt-4; } .contact-method a { @apply font-semibold text-cyan-400; } footer { @apply border-t border-white/10 py-8 text-center text-sm text-[#8b8b97]; } }</style>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+</head>
+<body class="min-h-screen bg-zinc-950 font-sans leading-relaxed text-zinc-100 antialiased">
+  <div aria-hidden="true" class="pointer-events-none fixed inset-0 -z-10 bg-gradient-to-br from-indigo-950 via-zinc-950 to-cyan-950/40"></div>
+  <header class="sticky top-0 z-50 border-b border-white/10 bg-zinc-950/80 backdrop-blur-xl">
+    <div class="container nav">
+      <a href="home.html" class="logo">Fam atef</a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="rounded-lg bg-violet-400/10 px-3 py-2 text-violet-300 ring-1 ring-inset ring-violet-400/20" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header container mx-auto w-[min(100%-2rem,1100px)] py-16 pb-8 text-center">
+      <p class="mb-4 text-xs font-bold uppercase tracking-widest text-cyan-300">Contact</p>
+      <h1 class="font-serif text-4xl font-semibold tracking-tight text-white sm:text-6xl">Let's Work Together</h1>
+      <p class="mx-auto mt-6 max-w-2xl text-base leading-8 text-zinc-400 sm:text-lg">Tell me about your project, and I will get back to you as soon as possible.</p>
+    </section>
+
+    <section class="contact container mx-auto w-full max-w-6xl px-5 py-8 pb-24" aria-label="Contact details"><div class="contact-layout mx-auto max-w-xl"><section class="contact-details rounded-3xl border border-violet-400/20 bg-zinc-900/90 p-8 shadow-2xl shadow-black/30 sm:p-10" aria-label="Contact details">
+          <p class="mb-3 text-xs font-bold uppercase tracking-widest text-cyan-300">Contact Details</p>
+          <h2 class="font-serif text-3xl text-white">Start a Conversation</h2>
+          <p class="mt-3 text-zinc-400">Available for freelance projects, collaborations, and consulting.</p>
+
+          <div class="contact-methods">
+            <div class="contact-method">
+              <span class="contact-method-label">Email</span>
+              <a href="mailto:famatefatef@gmail.com">famatefatef@gmail.com</a>
+            </div>
+            <div class="contact-method">
+              <span class="contact-method-label">Whatsapp</span>
+              <a href="https://wa.me/201002864149" target="_blank" rel="noopener noreferrer">+20 100 286 4149</a>
+            </div>
+            <div class="contact-method">
+              <span class="contact-method-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/fam-atef-500a5b32a" target="_blank" rel="noopener noreferrer">linkedin.com/in/fam-atef</a>
+            </div>
+            <div class="contact-method">
+              <span class="contact-method-label">Facebook</span>
+              <a href="https://www.facebook.com/share/1HUVCZQ94o/" target="_blank" rel="noopener noreferrer">Fam Atef</a>
+            </div>
+            <div class="contact-method">
+              <span class="contact-method-label">Instagram</span>
+              <a href="https://www.instagram.com/fam_atef0?igsh=MWsydXNxbWw1ZHo0aA==" target="_blank" rel="noopener noreferrer">Fam Atef</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-zinc-950 py-8 text-center text-sm text-zinc-500">
+    <div class="container">
+      <p>&copy; 2026 Fam atef. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
